@@ -1,0 +1,32 @@
+body{ 
+	font-family: Georgia, Times, Serif;
+	background-color:#99b3d0;
+	color:#d3e5f0;
+	text-align: center;
+
+}
+
+img{
+	border: solid #d3e5f0 4px;
+}
+
+
+a{
+	color:#d3e5f0;
+}
+
+a:hover{
+	border: solid #d3e5f0 3px;
+}
+
+a:visited{
+	color: #8c98d2;
+}
+
+#header{
+	color: #adcfdf;
+}
+
+.caption{
+	font-size: 90%;
+}

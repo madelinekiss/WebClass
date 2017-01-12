@@ -1,0 +1,48 @@
+*{
+	background-color: #fff5c4
+}
+
+.a{
+	height: 300px;
+	width: 300px;
+	background-color:#cdd4f6;
+	opacity: 0.5;
+	position: relative;
+	top: 50px;
+	left:300px;
+}
+
+.b{
+	height: 300px;
+	width:300px;
+	background-color: #e58b8b;
+	opacity: 0.5;
+	position: relative;
+	top:  -25px;
+	left: 500px;
+	
+}
+
+.c{
+	height: 300px;
+	width: 300px;
+	background-color:#cdd4f6;
+	opacity: 0.5;
+	position: relative;
+	top: -100px;
+	left:700px;
+	
+
+}
+
+.a:hover{
+	background-image: url("flower.jpeg");
+}
+
+.b:hover{
+	background-color:#53c5ce;
+}
+
+.c:hover{
+	background-image: url("flower.jpeg");
+}

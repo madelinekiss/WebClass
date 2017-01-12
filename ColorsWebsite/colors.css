@@ -36,7 +36,7 @@
 }
 
 .a:hover{
-	background-image: url("flower.jpeg");
+	background-image: url("flower.jpg");
 }
 
 .b:hover{
@@ -44,5 +44,5 @@
 }
 
 .c:hover{
-	background-image: url("flower.jpeg");
+	background-image: url("flower.jpg");
 }

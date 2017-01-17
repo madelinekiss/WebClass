@@ -46,3 +46,22 @@
 .c:hover{
 	background-image: url("flower.jpg");
 }
+
+
+@media (max-width: 1199px) {
+	.b{
+		position: relative;
+		left: 300px;
+		top: 75px;
+
+
+	}
+
+	.c{
+		position: relative;
+		left: 300px;
+		top: 100px;
+
+	}
+
+}

@@ -2,6 +2,14 @@
 	background-color: #e4f3ff;
 
 }
+body{
+	width:100%;
+}
+div{
+	background-size: cover;
+	background-repeat: no-repeat;
+	box-sizing: border-box;
+}
 
 h1{
 	font-family: "Avant Garde";
@@ -14,6 +22,21 @@ h1{
 
 }
 
+h2{
+	font-family: "Avant Garde";
+	font-size: 35px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 200px;
+	line-height: 26.4px;
+}
+
+a{
+	text-decoration: none !important;
+	border:0!important;
+
+}
+
 .body{
 	font-family: "Avant Garde", "Century Gothic", sans-serif;
 	font-size: 14px;
@@ -23,27 +46,22 @@ h1{
 	line-height: 20px;
 
 }
+
+#links{
+	margin-right: auto;
+	margin-left: auto;
+	width: 400px;
+	
+}
+
 #food{
 	width: 950px;
 	height: 590px;
 	background-image: url("reservations.jpeg");
 	margin-left: auto;
 	margin-right: auto;
-
 }
 
-a{
-	text-decoration: none !important;
-	border:0!important;
-
-}
-
-#links{
-	margin-right: auto;
-	margin-left: auto;
-	width: 315px;
-	
-}
 #menu{
 	font-family: "Avant Garde", "Century Gothic", sans-serif;
 	font-size: 50px;
@@ -55,15 +73,12 @@ a{
 	background-image: url("new.jpeg");
 	margin-left: auto;
     margin-right: auto;
-	margin:12.5px;
+	margin-top:12.5px;
+	margin-bottom: 12.5px;
 	border:0!important;
 	padding: 0 !important;
-
-
-
 }
 
-   
 #about{
 	font-family: "Avant Garde", "Century Gothic", sans-serif;
 	font-size: 50px;
@@ -79,10 +94,6 @@ a{
 	margin: 12.5px;
 	border:0!important;
 	padding: 0 !important;
-
-
-
-
 }
 
 #reserve{
@@ -99,23 +110,13 @@ a{
 	margin: 12.5px;
 	border:0!important;
 	padding: 0 !important;
-
-
-
 }
 
-h2{
-	font-family: "Avant Garde";
-	font-size: 35px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 200px;
-	line-height: 26.4px;
-}
 #link2{ 
+	width: 75%;
 	margin-right: auto;
 	margin-left: auto;
-	width: 315px;
+	
  }
 
 #rawbar{
@@ -257,6 +258,54 @@ h2{
 	#link2{
 		width: 975px;
 	}
+
+	.col-lg-1 {
+		width: 8.33%;
+	}
+
+	.col-lg-2 {
+		width: 16.66%;
+	}
+
+	.col-lg-3 {
+		width: 25%;
+	}
+
+	.col-lg-4 {
+		width: 33.33%;
+	}
+
+	.col-lg-5 {
+		width: 41.66%;
+	}
+
+	.col-lg-6 {
+		width: 50%;
+	}
+
+	.col-lg-7 {
+		width: 58.33%;
+	}
+
+	.col-lg-8 {
+		width: 66.66%;
+	}
+
+	.col-lg-9 {
+		width: 74.99%;
+	}
+
+	.col-lg-10 {
+		width: 83.33%;
+	}
+
+	.col-lg-11 {
+		width: 91.66%;
+	}
+
+	.col-lg-12 {
+		width: 100%;
+	}
 	
 	}
 
@@ -266,5 +315,53 @@ h2{
 		margin-right: auto;
 		width: 650px;
 	
+	}
+
+		.col-md-1 {
+		width: 8.33%;
+	}
+
+	.col-md-2 {
+		width: 16.66%;
+	}
+
+	.col-md-3 {
+		width: 25%;
+	}
+
+	.col-md-4 {
+		width: 33.33%;
+	}
+
+	.col-md-5 {
+		width: 41.66%;
+	}
+
+	.col-md-6 {
+		width: 50%;
+	}
+
+	.col-md-7 {
+		width: 58.33%;
+	}
+
+	.col-md-8 {
+		width: 66.66%;
+	}
+
+	.col-md-9 {
+		width: 74.99%;
+	}
+
+	.col-md-10 {
+		width: 83.33%;
+	}
+
+	.col-md-11 {
+		width: 91.66%;
+	}
+
+	.col-md-12 {
+		width: 100%;
 	}
 }

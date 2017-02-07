@@ -1,0 +1,150 @@
+*{ 
+	font-family: Bebas Neue;
+	
+ }
+
+ body{
+ 	position: relative;
+ }
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+   color:#9f9f9f!important;
+   background-color: white;
+}
+
+h1{
+	font-size: 75px;
+}
+
+p{
+	font-size: 50px;
+}
+
+@media (max-width: 650px){
+	h1{
+		font-size: 70px;
+	}
+
+	p{
+		font-size: 25px;
+	}
+}
+
+img.col-xs-12{
+  max-height: 200px;
+}
+
+img.col-sm-9{
+  max-height: 400px;
+}
+
+img.col-sm-12{
+  max-height: 600px;
+}
+
+.navbar{
+ 	background-color: #ffffff !important;
+ 	color:#9f9f9f !important;
+ }
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+
+  .jumbotron{
+  	background-color: none;
+  	height: 600px;
+  }
+
+  .navbar-brand{
+  	color:#c5e6ff !important;
+  }
+
+  .sticker {padding-top:25px;height:700px;color: #fff; background-color: #e4d7ff;}
+  .personal {padding-top:25px;height:700px;color: #fff; background-color: #c5e6ff;}
+  .bullet {padding-top:25px;height:700px;color: #fff; background-color: #bef9dc;}
+  .what {padding-top:25px;height:1000px;color: #9f9f9f; background-color: white;}
+  .employee {padding-top:25px;height:1200px;color: #fff; background-color: #9f9f9f;}
+  .test {padding-top:25px;height:600px;color: #9f9f9f; background-color: white;}
+
+  img{
+  	float: right;
+  }
+
+  html {
+    position: relative;
+    min-height: 100%;
+}
+.carousel-fade .carousel-inner .item {
+    opacity: 0;
+    transition-property: opacity;
+}
+.carousel-fade .carousel-inner .active {
+    opacity: 1;
+}
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+    left: 0;
+    opacity: 0;
+    z-index: 1;
+}
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+    opacity: 1;
+}
+.carousel-fade .carousel-control {
+    z-index: 2;
+}
+@media all and (transform-3d),
+(-webkit-transform-3d) {
+    .carousel-fade .carousel-inner > .item.next,
+    .carousel-fade .carousel-inner > .item.active.right {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner > .item.prev,
+    .carousel-fade .carousel-inner > .item.active.left {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner > .item.next.left,
+    .carousel-fade .carousel-inner > .item.prev.right,
+    .carousel-fade .carousel-inner > .item.active {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+.item:nth-child(1) {
+    background: url(final.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.item:nth-child(2) {
+    background: url(pencils.jpeg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.carousel {
+    z-index: -99;
+}
+.carousel .item {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+.title {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  text-shadow: 2px 2px #000;
+  color: #FFF;
+}
